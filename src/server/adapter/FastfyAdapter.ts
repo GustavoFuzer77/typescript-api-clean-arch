@@ -2,7 +2,6 @@ import { FastifyInstance, FastifyReply, FastifyRequest } from "fastify";
 import { HttpServer } from "../interfaces/HttpRepository";
 
 export class FastifyAdapter implements HttpServer {
-  
   constructor(private readonly server: FastifyInstance) {
     server.listen({ port: 3001 }, (err, address) => {
       if (err) {
@@ -12,7 +11,7 @@ export class FastifyAdapter implements HttpServer {
       console.log(`Server listening at ${address}`);
     });
   }
-
+  
   get(
     path: string,
     handler: (request: FastifyRequest, reply: FastifyReply) => void
