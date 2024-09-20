@@ -24,13 +24,17 @@ Este projeto é uma API de autenticação desenvolvida em TypeScript, baseada no
 
 ## Como Executar o Projeto
  **Pré-requisitos**
+ 
  Antes de iniciar o projeto, configure o arquivo .env com as seguintes variáveis:
+ 
 ``
 DATABASE_URL="postgresql://<usuario>:<senha>@localhost:5432/<nome_db>?schema=public"
 JWT_SECRET="escolha_seu_segredo_jwt"
 ``
 **Comandos para Iniciar o Projeto**
+
 Instale as dependências e inicie o projeto com os comandos abaixo (pode substituir npm por yarn, pnpm, bun, etc.):
+
 ``
 npm install
 npm start
