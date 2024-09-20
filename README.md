@@ -1,6 +1,6 @@
-#📜 API de Autenticação - TypeScript & Clean Architecture 
+# 📜 API de Autenticação - TypeScript & Clean Architecture 
 
-## Este projeto é uma API de autenticação desenvolvida em TypeScript com base nos princípios de Clean Architecture. O objetivo é fornecer uma solução robusta, modular e escalável, utilizando padrões de design e ferramentas modernas.
+# Este projeto é uma API de autenticação desenvolvida em TypeScript com base nos princípios de Clean Architecture. O objetivo é fornecer uma solução robusta, modular e escalável, utilizando padrões de design e ferramentas modernas.
 
 ##🚀 Tecnologias Utilizadas##
  - TypeScript - Garantia de tipagem estática para maior segurança e manutenção.
